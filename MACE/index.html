@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Xianliang Huang">
+    <meta name="description" content="MACE project page">
+    <title>MACE</title>
+    <link rel="stylesheet" href="../project.css">
+  </head>
+  <body>
+    <main class="page">
+      <div class="nav"><a href="../index.html">Home</a></div>
+      <h1 class="title">MACE: Mixture-of-Experts Accelerated Coordinate Encoding for Large-Scale Scene Localization and Rendering</h1>
+      <p class="venue">IEEE International Conference on Robotics and Automation (ICRA) 2026, CCF-B</p>
+      <p>
+        Mingkai Liu, Dikai Fan, Haohua Que, Haojia Gao, Xiao Liu, Shuxue Peng, Meixia Lin,
+        Shengyu Gu, Ruicong Ye, Wanli Qiu, Handong Yao, Ruopeng Zhang, <strong>Xianliang Huang</strong>*
+      </p>
+      <p class="links">
+        <a href="MACE.pdf" download>PDF</a>
+        <a href="https://arxiv.org/abs/2510.14251">arXiv</a>
+        <span class="link-disabled">Code pending</span>
+        <span class="link-disabled">Video pending</span>
+      </p>
+      <section class="section">
+        <h2>Overview</h2>
+        <p>
+          MACE targets efficient localization and high-quality rendering in large-scale
+          scenes. It uses a mixture-of-experts coordinate encoding framework with a
+          gating network that activates only one subnetwork per inference, reducing
+          computation while preserving accurate scene coordinate regression.
+        </p>
+      </section>
+      <section class="section">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Mixture-of-experts coordinate encoding for scalable scene localization.</li>
+          <li>Single-expert activation during inference to reduce computational cost.</li>
+          <li>Auxiliary-Loss-Free Load Balancing for stable large-scale training.</li>
+          <li>Gaussian prediction head bridges high-precision localization and 3DGS rendering.</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2>Citation</h2>
+        <pre class="citation">@article{liu2025mace,
+  title={MACE: Mixture-of-Experts Accelerated Coordinate Encoding for Large-Scale Scene Localization and Rendering},
+  author={Liu, Mingkai and Fan, Dikai and Que, Haohua and Gao, Haojia and Liu, Xiao and Peng, Shuxue and Lin, Meixia and Gu, Shengyu and Ye, Ruicong and Qiu, Wanli and Yao, Handong and Zhang, Ruopeng and Huang, Xianliang},
+  journal={arXiv preprint arXiv:2510.14251},
+  year={2025}
+}</pre>
+      </section>
+    </main>
+  </body>
+</html>
