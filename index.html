@@ -23,22 +23,24 @@
                   Xianliang Huang
                 </p>
                 <p>
-                  I am a fourth-year Ph.D. candidate at the
-                  <a href="https://cs.fudan.edu.cn/">School of Computer Science</a>,
-                  <a href="https://www.fudan.edu.cn/main.htm">Fudan University</a>.
-                  I am fortunate to be advised by
-                  <a href="https://admis.fudan.edu.cn/sgzhou/main.htm">Prof. Shuigeng Zhou</a>
-                  in the ADMIS Lab. Before joining Fudan, I received my M.S. degree
-                  in Radio Physics from Xiamen University and my B.S. degree in
-                  Mathematics and Applied Mathematics from Nanchang University.
+                  I am a World Model Algorithm Researcher at ByteDance, working on
+                  3D scene generation and reconstruction. I received my Ph.D. in
+                  Electronic Information from the
+                  <a href="https://cs.fudan.edu.cn/">School of Computer Science and Technology</a>,
+                  <a href="https://www.fudan.edu.cn/main.htm">Fudan University</a>
+                  in 2025, advised by
+                  <a href="https://admis.fudan.edu.cn/sgzhou/main.htm">Prof. Shuigeng Zhou</a>.
+                  Before that, I received my M.S. degree in Radio Physics from
+                  Xiamen University and my B.S. degree in Mathematics and Applied
+                  Mathematics from Nanchang University.
                 </p>
                 <p>
-                  My research interests include computer vision, computer graphics,
-                  neural rendering, image inpainting, and 3D reconstruction. I am
-                  especially interested in reconstructing 3D faces and scenes with
-                  neural radiance fields, differentiable rendering, diffusion priors,
-                  and Gaussian splatting, including restoration of contaminated or
-                  distracted scenes.
+                  My research interests include computer vision, neural rendering,
+                  multimodal learning, and visual geometry foundation models for
+                  3D human, object, and scene generation, editing, and reconstruction.
+                  My recent work covers digital humans, multi-view face generation,
+                  dynamic object removal, diffusion-guided editing, NeRF, 3D Gaussian
+                  Splatting, and 4D Gaussian Splatting.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:huangxl21@m.fudan.edu.cn">Email</a> &nbsp;/&nbsp;
@@ -58,11 +60,11 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I work on neural rendering and 3D vision, with a focus on multi-view
-                  face generation, physically guided 3D face and scene reconstruction,
-                  neural radiance fields, differentiable rendering, diffusion-based
-                  image inpainting, object removal, and Gaussian-splatting-based scene
-                  recovery.
+                  I study 3D vision systems for reconstructing, generating, editing,
+                  and understanding complex humans, objects, and scenes. My current
+                  focus is on end-to-end visual geometry models, large-scale fisheye
+                  reconstruction, feed-forward 3D Gaussian Splatting mapping and
+                  localization, and long-sequence offline and incremental reconstruction.
                 </p>
               </td>
             </tr>
@@ -71,7 +73,23 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr bgcolor="#ffffd0">
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612045">
+                <a href="nerf-mir/">
+                  <span class="papertitle">NeRF-MIR: Toward High-Quality Restoration of Masked Images With Neural Radiance Fields</span>
+                </a>
+                <br>
+                <strong>Xianliang Huang</strong>, Zhizhou Zhong, Shuhang Chen, Yi Xu, Jihong Guan, Shuigeng Zhou
+                <br>
+                <em>IEEE Transactions on Neural Networks and Learning Systems</em>, 2026
+                <br>
+                <a href="nerf-mir/">project page</a>
+                /
+                <a href="https://doi.org/10.1109/TNNLS.2026.3651302">paper</a>
+              </td>
+            </tr>
+
+            <tr bgcolor="#ffffd0">
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <a href="iddr-ngp/">
                   <span class="papertitle">IDDR-NGP: Incorporating Detectors for Distractor Removal with Instant Neural Radiance Field</span>
                 </a>
                 <br>
@@ -79,9 +97,47 @@
                 <br>
                 <em>ACM Multimedia</em>, Oral, CCF-A
                 <br>
+                <a href="iddr-ngp/">project page</a>
+                /
                 <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612045">paper</a>
                 <p></p>
                 <p>Detector-guided distractor removal with Instant Neural Radiance Fields.</p>
+              </td>
+            </tr>
+
+            <tr bgcolor="#ffffd0">
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <a href="focused-human-body/">
+                  <span class="papertitle">A Focused Human Body Model for Accurate Anthropometric Measurements Extraction</span>
+                </a>
+                <br>
+                Shuhang Chen*, <strong>Xianliang Huang</strong>*, Zhizhou Zhong, Juhong Guan, Shuigeng Zhou
+                <br>
+                <em>CVPR</em>, 2025, CCF-A
+                <br>
+                <a href="focused-human-body/">project page</a>
+                /
+                <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Chen_A_Focused_Human_Body_Model_for_Accurate_Anthropometric_Measurements_Extraction_CVPR_2025_paper.html">paper</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">Semantic-Guided Progressive Object Removal with Gaussian Splatting</span>
+                <br>
+                <strong>Xianliang Huang</strong>, Chen Xiao, Yuanxiang Ni, Guanming Liu, Mingkai Liu, Dikai Fan, Xiao Liu, Hao Zhang
+                <br>
+                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, CCF-B
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">MACE: Mixture-of-Experts Accelerated Coordinate Encoding for Large-Scale Scene Localization and Rendering</span>
+                <br>
+                Mingkai Liu, Dikai Fan, Haohua Que*, Haojia Gao, Xiao Liu, Shuxue Peng, Meixia Lin, Shengyu Gu, Ruicong Ye, Wanli Qiu, Handong Yao, Ruopeng Zhang, <strong>Xianliang Huang</strong>*
+                <br>
+                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, CCF-B
               </td>
             </tr>
 
@@ -103,14 +159,26 @@
 
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <a href="https://ieeexplore.ieee.org/document/9062553">
-                  <span class="papertitle">Hybrid Electromagnetic Inversion of Irregular Scatterers Embedded in Layered Media by VBIM and MET</span>
+                <span class="papertitle">Hi-NeRF: Hybridizing 2D Inpainting with Neural Radiance Fields for 3D Object Removal</span>
+                <br>
+                <strong>Xianliang Huang</strong>, Shuhang Chen, Zhizhou Zhong, Jiajie Gou, Jihong Guan, Shuigeng Zhou
+                <br>
+                <em>ACCV</em>, 2024, CCF-C
+              </td>
+            </tr>
+
+            <tr bgcolor="#ffffd0">
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <a href="hybrid-em-inversion/">
+                  <span class="papertitle">Hybrid Electromagnetic Inversion of 3-D Irregular Scatterers Embedded in Layered Media by VBIM and MET</span>
                 </a>
                 <br>
                 <strong>Xianliang Huang</strong>, Jiawen Li, Yanjin Chen, Feng Han, Qinghuo Liu
                 <br>
                 <em>IEEE Transactions on Antennas and Propagation</em>, JCR-Q1
                 <br>
+                <a href="hybrid-em-inversion/">project page</a>
+                /
                 <a href="https://ieeexplore.ieee.org/document/9062553">paper</a>
               </td>
             </tr>
@@ -122,26 +190,8 @@
                 <strong>Xianliang Huang</strong>, Jiawen Li, Jianliang Zhuo, Feng Han, Qinghuo Liu
                 <br>
                 <em>IEEE Geoscience and Remote Sensing Letters</em>, JCR-Q2
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <span class="papertitle">Hi-NeRF: Hybridizing 2D Inpainting with Neural Radiance Fields for 3D Object Removal</span>
                 <br>
-                <strong>Xianliang Huang</strong>, Shuhang Chen, Zhizhou Zhong, Jiajie Gou, Jihong Guan, Shuigeng Zhou
-                <br>
-                <em>ACCV</em>, 2024, CCF-C
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <span class="papertitle">NeRF-MIR: Neural Radiance Fields for Masked Image Restoration</span>
-                <br>
-                <strong>Xianliang Huang</strong>, Zhizhou Zhong, Shuhang Chen, Yi Xu, Jihong Guan, Shuigeng Zhou
-                <br>
-                Under review
+                <a href="https://doi.org/10.1109/LGRS.2021.3076433">paper</a>
               </td>
             </tr>
 
@@ -151,27 +201,97 @@
                 <br>
                 <strong>Xianliang Huang</strong>, Chen Xiao, Shuhang Chen, Jiajie Gou, Jihong Guan, Shuigeng Zhou
                 <br>
-                Under review
+                <em>IEEE Transactions on Cybernetics</em>, under review
               </td>
             </tr>
 
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <span class="papertitle">DR-GS: Towards Real-Time Distractor Removal with Gaussian Splatting</span>
+                <span class="papertitle">FiSh3R: Visual Geometry Transformer for Distortion-Aware Fisheye Reconstruction</span>
                 <br>
-                <strong>Xianliang Huang</strong>*, Jiajie Gou*, Shuhang Chen, Jihong Guan, Shuigeng Zhou
+                <strong>Xianliang Huang</strong>, Chen Xiao, Mingkai Liu, Jingke Zhou, Dikai Fan, Yuewen Ma, Xiao Liu, Shuigeng Zhou
                 <br>
-                Under review
+                <em>CVPR</em>, 2026, under review
               </td>
             </tr>
 
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <span class="papertitle">Accurate Anthropometric Measurement Extraction with Focused Human Body Model</span>
+                <span class="papertitle">Think Locally, Refine Globally for Memory-Efficient Streaming 3D Reconstruction</span>
                 <br>
-                Shuhang Chen*, <strong>Xianliang Huang</strong>*, Jihong Guan, Shuigeng Zhou
+                Jingke Zhou, Chenhang Ma, Zhizhou Zhong, Mingkai Liu, Zhuang Zhou, Yichan Ji, Yaoyuan Zhang, Dikai Fan, Binghua Su, Bo Cai, <strong>Xianliang Huang</strong>*
                 <br>
-                Under review
+                <em>ICML</em>, 2026, under review
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">Separable Policy Learning for Emergency Vehicle Prioritized Traffic Signal Control</span>
+                <br>
+                Qize Jiang, <strong>Xianliang Huang</strong>, Hao Zhang, Weiwei Sun
+                <br>
+                <em>ICML</em>, 2026, under review
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">SSOR-GS: Seamless Small Objects Removal via 3D Gaussian Splatting</span>
+                <br>
+                <strong>Xianliang Huang</strong>, Jiajie Gou, Mingkai Liu, Qize Jiang, Dikai Fan, Yuewen Ma, Xiao Liu, Hao Zhang
+                <br>
+                <em>ICME</em>, 2026, under review
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">LLMs Powers Controllable Distractor Generation and Removal with Gaussian Splatting</span>
+                <br>
+                <strong>Xianliang Huang</strong>*, Chen Xiao*, Jiajie Gou, Yixin Ren, Jihong Guan, Shuigeng Zhou
+                <br>
+                <em>ICASSP</em>, 2026, under review
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">Gaussian Eraser: Seamless 3D Scene Inpainting via Region Score Distillation</span>
+                <br>
+                Jingke Zhou, Chenhang Ma, Mingkai Liu, Ruihan Hou, Weichen Zhan, <strong>Xianliang Huang</strong>*
+                <br>
+                <em>ICME</em>, 2026, under review
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">CoGeo-GS: Concept-Driven and Geometry-Aware Multi-Object Removal in 3D Scenes</span>
+                <br>
+                Yuanxiang Ni, <strong>Xianliang Huang</strong>, Chenhang Ma, Chen Xiao, Yuewen Ma, Ruxin Wang, Hao Zhang
+                <br>
+                <em>ICME</em>, 2026, under review
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">ACEsplat: Fast Per-Scene 3D Gaussian Reconstruction from RGB Images and Poses</span>
+                <br>
+                Mingkai Liu, Haohua Que, Dikai Fan, <strong>Xianliang Huang</strong>, Haojia Gao, Handong Yao, Shuxue Peng, Meixia Lin, Feng Shuo, Fei Qiao
+                <br>
+                <em>ICME</em>, 2026, under review
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <span class="papertitle">A Proxy Agent for Context-Aware Intent Understanding via Retrieval-conditioned Inference</span>
+                <br>
+                Guanming Liu, Meng Wu, Peng Zhang, Yu Zhang, Yubo Shu, <strong>Xianliang Huang</strong>, Ning Gu, Liuxin Zhang, Qianying Wang, Tun Lu
+                <br>
+                <em>ACM Transactions on Information Systems</em>, under review
               </td>
             </tr>
           </tbody></table>
@@ -181,22 +301,26 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Awards</h2>
                 <p>
-                  Outstanding Student of Fudan University; First Class Scholarship
-                  for Doctoral Students of Fudan University; Three-A Student of Xiamen
-                  University; Outstanding Student Leader at the School of Electronics
-                  at Xiamen University; prizes in the National Chinese University
-                  Student Mathematics Competitions, APMCM, and Fujian Province
-                  Graduate Student Artificial Intelligence Competition.
+                  Outstanding Graduate of Fudan University; Outstanding Student of
+                  Fudan University; First Class Scholarship for Doctoral Students at
+                  Fudan University; Three-A Student of Xiamen University; Outstanding
+                  Student Leader at the School of Electronics, Xiamen University;
+                  provincial second and first prizes in the 8th and 9th National
+                  Chinese University Student Mathematics Competitions; Second Prize
+                  in the APMCM Asia-Pacific Mathematical Contest in Modeling.
                 </p>
               </td>
             </tr>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Activities</h2>
+                <h2>Projects</h2>
                 <p>
-                  Oral presentation at IEEE ICME 2023 and ACM Multimedia. I am open
-                  to collaboration and discussion in neural rendering, 3D scene
-                  restoration, object removal, and related computer vision topics.
+                  Participated in national key R&D projects on fast multi-parameter
+                  electromagnetic scattering computation for airborne composite field
+                  sources, joint electromagnetic inversion and imaging, a Hikvision
+                  collaborative project on large-scale high-potential data annotation
+                  and vector-scalar coordination, and a human-body measurement project
+                  based on reconstructed body meshes and human foundation models.
                 </p>
               </td>
             </tr>
@@ -204,8 +328,10 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Experience</h2>
                 <p>
-                  Algorithm Researcher, Beijing DeepSun Technology Co., Beijing,
-                  China. Algorithm Intern, Hikvision, Hangzhou, China.
+                  World Model Algorithm Researcher, ByteDance, 2025.07-present.
+                  Large Model Algorithm Research Intern, Casco Signal, 2025.03-2025.06.
+                  Algorithm Intern, Hikvision, 2024.03-2024.09. Algorithm Researcher,
+                  Beijing DeepSun Technology Co., 2021.06-2021.09.
                 </p>
               </td>
             </tr>
@@ -216,7 +342,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Website template adapted from <a href="https://jonbarron.info/">Jon Barron's homepage</a>.
+                  Website maintained by Xianliang Huang.
                 </p>
               </td>
             </tr>
