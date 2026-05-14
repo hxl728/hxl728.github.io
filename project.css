@@ -41,23 +41,40 @@ a:focus {
 }
 
 .links {
-  margin: 16px 0 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 24px;
 }
 
-.links a {
-  margin-right: 14px;
+.links a,
+.links .link-disabled {
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  padding: 7px 12px;
+  background: #ffffff;
+  line-height: 1;
   white-space: nowrap;
 }
 
-.hero-placeholder {
-  min-height: 220px;
-  border: 1px solid #d7d7d7;
-  background: #f7f7f7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.links .link-disabled {
   color: #777777;
+}
+
+.project-image,
+.project-video {
+  display: block;
+  width: 100%;
   margin: 22px 0 28px;
+}
+
+.project-image {
+  border: 1px solid #d7d7d7;
+  background: #ffffff;
+}
+
+.project-video {
+  background: #111111;
 }
 
 .section {

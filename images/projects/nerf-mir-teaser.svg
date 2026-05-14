@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+  <title id="title">NeRF-MIR overview</title>
+  <desc id="desc">Masked image restoration with neural radiance fields.</desc>
+  <rect width="920" height="360" fill="#f8fafc"/>
+  <rect x="36" y="42" width="848" height="276" rx="10" fill="#ffffff" stroke="#d8dee9"/>
+  <text x="70" y="86" font-family="Lato,Verdana,Arial,sans-serif" font-size="24" font-weight="700" fill="#222222">NeRF-MIR</text>
+  <text x="70" y="116" font-family="Lato,Verdana,Arial,sans-serif" font-size="15" fill="#555555">Toward high-quality restoration of masked images with Neural Radiance Fields</text>
+  <g font-family="Lato,Verdana,Arial,sans-serif" font-size="16" text-anchor="middle">
+    <rect x="74" y="164" width="150" height="78" rx="8" fill="#fce8e6" stroke="#f28b82"/>
+    <text x="149" y="198" fill="#7b1d16">Masked</text>
+    <text x="149" y="220" fill="#7b1d16">observations</text>
+    <rect x="292" y="164" width="150" height="78" rx="8" fill="#fff4df" stroke="#f2b866"/>
+    <text x="367" y="198" fill="#684400">Entropy ray</text>
+    <text x="367" y="220" fill="#684400">emission</text>
+    <rect x="510" y="164" width="150" height="78" rx="8" fill="#e8f0fe" stroke="#8ab4f8"/>
+    <text x="585" y="198" fill="#1a3d6d">Progressive</text>
+    <text x="585" y="220" fill="#1a3d6d">restoration</text>
+    <rect x="728" y="164" width="112" height="78" rx="8" fill="#e8f5e9" stroke="#81c995"/>
+    <text x="784" y="198" fill="#245b2a">Restored</text>
+    <text x="784" y="220" fill="#245b2a">image</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M224 203 H292"/>
+    <path d="M442 203 H510"/>
+    <path d="M660 203 H728"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <text x="70" y="286" font-family="Lato,Verdana,Arial,sans-serif" font-size="14" fill="#555555">Patch-based ray allocation and dynamic weighting improve texture-aware masked-region recovery.</text>
+</svg>
