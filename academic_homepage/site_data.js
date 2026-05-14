@@ -190,7 +190,7 @@ window.SITE_DATA = {
       "venue": "IEEE Transactions on Antennas and Propagation, 2020",
       "note": "First-author physics / inverse-problem publication",
       "abstract": "A hybrid electromagnetic inversion method for irregular 3D scatterers in layered media, reflecting my foundation in physics-grounded inverse modeling before moving into neural 3D reconstruction.",
-      "image": "assets/publications/hybrid-em-inversion.svg",
+      "image": "assets/publications/hybrid-em-inversion.png",
       "imageAlt": "Hybrid electromagnetic inversion overview",
       "tags": [
         "Physical Inverse Problems",
