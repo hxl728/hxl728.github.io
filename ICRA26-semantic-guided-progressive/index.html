@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Xianliang Huang">
+    <meta name="description" content="Semantic-Guided Progressive Object Removal project page">
+    <title>Semantic-Guided Progressive Object Removal</title>
+    <link rel="stylesheet" href="../project.css">
+  </head>
+  <body>
+    <main class="page">
+      <div class="nav"><a href="../index.html">Home</a></div>
+      <h1 class="title">Semantic-Guided Progressive Object Removal with Gaussian Splatting</h1>
+      <p class="venue">IEEE International Conference on Robotics and Automation (ICRA) 2026, CCF-B</p>
+      <p>
+        <strong>Xianliang Huang</strong>, Chen Xiao, Yuanxiang Ni, Guanming Liu, Mingkai Liu, Dikai Fan, Xiao Liu, Hao Zhang
+      </p>
+      <p class="links">
+        <a href="ICRA2026__Semantic_Guided_Progressive_Object_Removal__camera_ready_version_.pdf" download>PDF</a>
+        <span class="link-disabled">Code pending</span>
+        <span class="link-disabled">Video pending</span>
+      </p>
+      <section class="section">
+        <h2>Overview</h2>
+        <p>
+          This work removes unwanted objects from reconstructed 3D scenes by combining
+          semantic guidance across multiple views with progressive refinement in a
+          Gaussian Splatting representation. The method targets high-quality object
+          removal for AR/VR, robotics, and digital content creation, especially when
+          large masks or complex geometry make one-shot completion unreliable.
+        </p>
+      </section>
+      <section class="section">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Semantic-guided Block Matching uses DINOv2 features to retrieve cross-view content for missing regions.</li>
+          <li>Region-Wise Progressive Refinement divides masks into subregions and selectively improves low-quality areas.</li>
+          <li>High-frequency guidance helps diffusion-based inpainting preserve sharper local details.</li>
+          <li>Gaussian Splatting provides efficient reconstruction and coherent novel-view rendering after object removal.</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2>Citation</h2>
+        <pre class="citation">@inproceedings{huang2026semanticguided,
+  title={Semantic-Guided Progressive Object Removal with Gaussian Splatting},
+  author={Huang, Xianliang and Xiao, Chen and Ni, Yuanxiang and Liu, Guanming and Liu, Mingkai and Fan, Dikai and Liu, Xiao and Zhang, Hao},
+  booktitle={IEEE International Conference on Robotics and Automation},
+  year={2026}
+}</pre>
+      </section>
+    </main>
+  </body>
+</html>
