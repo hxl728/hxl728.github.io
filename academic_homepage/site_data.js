@@ -122,6 +122,8 @@ window.SITE_DATA = {
       "venue": "ACM Multimedia, 2023 · Oral",
       "note": "First-author selected publication",
       "abstract": "A unified neural rendering framework for removing diverse dynamic distractors from 3D scenes by integrating 2D detectors with Instant-NGP and multi-view compensation.",
+      "image": "assets/publications/iddr-ngp.png",
+      "imageAlt": "IDDR-NGP qualitative distractor removal examples",
       "tags": [
         "NeRF",
         "3D Scene Restoration",
@@ -148,6 +150,8 @@ window.SITE_DATA = {
       "venue": "CVPR, 2025",
       "note": "Co-first-author selected publication",
       "abstract": "A focused human body model and multimodal benchmark for extracting accurate anthropometric measurements from reconstructed human geometry.",
+      "image": "assets/publications/focused-human-body.png",
+      "imageAlt": "Focused Human Body Model measurement extraction examples",
       "tags": [
         "Human Body Model",
         "Benchmark",
@@ -166,6 +170,8 @@ window.SITE_DATA = {
       "venue": "IEEE Transactions on Neural Networks and Learning Systems, 2026",
       "note": "First-author journal publication",
       "abstract": "A NeRF-based masked image restoration framework that introduces patch-based entropy ray emission and progressively iterative restoration to improve texture recovery across views.",
+      "image": "assets/publications/nerf-mir.png",
+      "imageAlt": "NeRF-MIR masked image restoration examples",
       "tags": [
         "NeRF",
         "Image Restoration",
@@ -184,6 +190,8 @@ window.SITE_DATA = {
       "venue": "IEEE Transactions on Antennas and Propagation, 2020",
       "note": "First-author physics / inverse-problem publication",
       "abstract": "A hybrid electromagnetic inversion method for irregular 3D scatterers in layered media, reflecting my foundation in physics-grounded inverse modeling before moving into neural 3D reconstruction.",
+      "image": "assets/publications/hybrid-em-inversion.svg",
+      "imageAlt": "Hybrid electromagnetic inversion overview",
       "tags": [
         "Physical Inverse Problems",
         "Electromagnetics",
@@ -202,6 +210,8 @@ window.SITE_DATA = {
       "venue": "ICRA, 2026 · Accepted",
       "note": "First-author robotics-oriented selected publication",
       "abstract": "A Gaussian Splatting based 3D object removal framework that connects semantic guidance, progressive scene editing, and robotics-relevant scene representation.",
+      "image": "assets/publications/semantic-guided-progressive.png",
+      "imageAlt": "Semantic-guided progressive object removal pipeline",
       "tags": [
         "3DGS",
         "Scene Editing",

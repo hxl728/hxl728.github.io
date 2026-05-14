@@ -79,7 +79,14 @@
           ${pub.abstract ? `<p>${escapeHtml(pub.abstract)}</p>` : ""}
           <div class="pub-links">${renderLinks(pub.links)}</div>
         </div>
-        <div class="tags pub-tags">${(pub.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("")}</div>
+        <div class="pub-side">
+          ${pub.image ? `
+            <figure class="pub-figure">
+              <img src="${escapeHtml(pub.image)}" alt="${escapeHtml(pub.imageAlt || `${pub.title} figure`)}">
+            </figure>
+          ` : ""}
+          <div class="tags pub-tags">${(pub.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("")}</div>
+        </div>
       </article>
     `).join("");
   }

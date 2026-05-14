@@ -270,8 +270,9 @@ a:hover { text-decoration: underline; }
 }
 .pub-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 34%);
+  gap: 1.2rem;
+  align-items: start;
 }
 .pub-meta { color: var(--muted); margin: 0.35rem 0; }
 .pub-note { color: var(--accent-2); font-weight: 750; margin: 0.35rem 0; }
@@ -293,7 +294,25 @@ a:hover { text-decoration: underline; }
 }
 .pub-links a:hover,
 .project-links a:hover { text-decoration: none; border-color: var(--accent); }
-.pub-tags { min-width: 160px; justify-content: end; }
+.pub-side {
+  display: grid;
+  gap: 0.75rem;
+}
+.pub-figure {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #ffffff;
+  overflow: hidden;
+}
+.pub-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  background: #ffffff;
+}
+.pub-tags { justify-content: start; }
 
 .timeline {
   list-style: none;
@@ -378,6 +397,6 @@ a:hover { text-decoration: underline; }
   .project-grid { grid-template-columns: 1fr; }
   .section-head.split { align-items: start; flex-direction: column; }
   .pub-card { grid-template-columns: 1fr; }
-  .pub-tags { justify-content: start; }
+  .pub-figure img { aspect-ratio: 16 / 9; }
   .cv-item { grid-template-columns: 1fr; gap: 0.2rem; }
 }
