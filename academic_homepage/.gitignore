@@ -1,0 +1,12 @@
+# Private application materials
+files/*
+
+# Public CV files allowed
+!files/
+!files/.gitkeep
+!files/Huang_Xianliang_Academic_CV_Repositioned_EN.pdf
+!files/Huang_Xianliang_CV_Current_CN.pdf
+
+# Local/system files
+.DS_Store
+*.tmp

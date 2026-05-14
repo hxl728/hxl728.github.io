@@ -1,1 +1,9 @@
 .ace-tool/
+academic_homepage/.ace-tool/
+academic_homepage/.git/
+academic_homepage/files/*
+!academic_homepage/files/
+!academic_homepage/files/.gitkeep
+!academic_homepage/files/Huang_Xianliang_Academic_CV_Repositioned_EN.pdf
+!academic_homepage/files/Huang_Xianliang_CV_Current_CN.pdf
+hxl个人简历_算法 - 26-2-12.pdf
